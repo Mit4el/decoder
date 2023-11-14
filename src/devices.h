@@ -32,6 +32,7 @@
 #include "devices/H5074_json.h"
 #include "devices/H5102_json.h"
 #include "devices/H5106_json.h"
+#include "devices/H5179_json.h"
 #include "devices/HHCCJCY10_json.h"
 #include "devices/HHCCJCY01HHCC_json.h"
 #include "devices/HHCCPOT002_json.h"
@@ -74,6 +75,7 @@
 #include "devices/ABN07_json.h"
 #include "devices/ABTemp_json.h"
 #include "devices/Amphiro_json.h"
+#include "devices/OralB_json.h"
 #include "devices/PH10_json.h"
 #include "devices/TPTH_json.h"
 #include "devices/Mopeka_json.h"
@@ -88,6 +90,7 @@
 #include "devices/BPARASITE_json.h"
 #include "devices/BWBSDOO_json.h"
 #include "devices/BM2_json.h"
+#include "devices/BM6_json.h"
 #include "devices/JHT_F525_json.h"
 #include "devices/iBeacon_json.h"
 #include "devices/APPLE_json.h"
@@ -140,6 +143,7 @@ const char* _devices[][2] = {
     {_H5074_json, _H5074_json_props},
     {_H5102_json, _H5102_json_props},
     {_H5106_json, _H5106_json_props},
+    {_H5179_json, _H5179_json_props},
     {_HHCCJCY10_json, _HHCCJCY10_json_props},
     {_MUE4094RT_json, _MUE4094RT_json_props},
     {_Mokobeacon_json, _Mokobeacon_json_props},
@@ -167,11 +171,13 @@ const char* _devices[][2] = {
     {_BPARASITE_json, _BPARASITE_json_props},
     {_BWBSDOO_json, _BWBSDOO_json_props},
     {_BM2_json, _BM2_json_props},
+    {_BM6_json, _BM6_json_props},
     {_RDL52832_json, _RDL52832_json_props},
     {_ABN03_json, _ABN03_json_props},
     {_ABN07_json, _ABN07_json_props},
     {_ABTemp_json, _ABTemp_json_props},
     {_AMPHIRO_json, _AMPHIRO_json_props},
+    {_OralB_json, _OralB_json_props},
     {_PH10_json, _PH10_json_props},
     {_TPTH_json, _TPTH_json_props},
     {_Mopeka_json, _Mopeka_json_props},

@@ -160,4 +160,5 @@ jobs:
     - name: Install python decoder
       run: |
         cd python
-        pip install .
+        cp -r ../src .
+        python3 setup.py sdist
