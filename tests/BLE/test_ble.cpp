@@ -21,7 +21,7 @@ const char* expected_servicedata[] = {
 };
 
 const char* expected_mfg[] = {
-    "{\"brand\":\"Inkbird\",\"model\":\"T(H) Sensor\",\"model_id\":\"IBS-TH1/TH2/P01B/ITH-12S\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":26.62,\"tempf\":79.916,\"hum\":53.79,\"batt\":89}",
+    "{\"brand\":\"Inkbird\",\"model\":\"T(H) Sensor\",\"model_id\":\"IBS-TH1/TH2/P01B/ITH-12S\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":26.62,\"tempf\":79.916,\"extprobe\":false,\"hum\":53.79,\"batt\":89}",
     "{\"brand\":\"Inkbird\",\"model\":\"T(H) Sensor\",\"model_id\":\"IBS-TH1/TH2/P01B/ITH-12S\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":25.44,\"tempf\":77.792,\"extprobe\":true,\"hum\":51.18,\"batt\":48}",
     "{\"brand\":\"GENERIC\",\"model\":\"iBeacon\",\"model_id\":\"IBEACON\",\"type\":\"BCON\",\"mfid\":\"4c00\",\"uuid\":\"426c7565436861726d426561636f6e73\",\"major\":3838,\"minor\":4949,\"txpower\":-59}",
     "{\"brand\":\"GENERIC\",\"model\":\"iBeacon\",\"model_id\":\"IBEACON\",\"type\":\"BCON\",\"mfid\":\"4c00\",\"uuid\":\"fda50693a4e24fb1afcfc6eb07647825\",\"major\":1,\"minor\":2,\"volt\":2.6}",
@@ -30,19 +30,19 @@ const char* expected_mfg[] = {
     "{\"brand\":\"Govee\",\"model\":\"Bluetooth BBQ Thermometer\",\"model_id\":\"H5055\",\"type\":\"BBQ\",\"cidc\":false,\"tempc5\":92,\"tempf5\":197.6,\"tempc6\":55,\"tempf6\":131,\"batt\":97}",
     "{\"brand\":\"Govee\",\"model\":\"Bluetooth BBQ Thermometer\",\"model_id\":\"H5055\",\"type\":\"BBQ\",\"cidc\":false,\"tempc6\":84,\"tempf6\":183.2,\"batt\":83}",
     "{\"brand\":\"Govee\",\"model\":\"Thermo-Hygrometer\",\"model_id\":\"H5072/75\",\"type\":\"THB\",\"acts\":true,\"cidc\":false,\"tempc\":26.8,\"tempf\":80.24,\"hum\":52.6,\"batt\":100}",
-    "{\"brand\":\"Govee\",\"model\":\"Thermo-Hygrometer\",\"model_id\":\"H5072/75\",\"type\":\"THB\",\"acts\":true,\"cidc\":false,\"tempc\":-7.3481,\"tempf\":18.77342,\"hum\":8.9,\"batt\":100}",
+    "{\"brand\":\"Govee\",\"model\":\"Thermo-Hygrometer\",\"model_id\":\"H5072/75\",\"type\":\"THB\",\"acts\":true,\"cidc\":false,\"tempc\":-7.3481,\"tempf\":18.77342,\"hum\":48.1,\"batt\":100}",
     "{\"brand\":\"Govee\",\"model\":\"Thermo-Hygrometer\",\"model_id\":\"H5072/75\",\"type\":\"THB\",\"acts\":true,\"cidc\":false,\"tempc\":27.5,\"tempf\":81.5,\"hum\":53.1,\"batt\":100}",
     "{\"brand\":\"Govee\",\"model\":\"Smart Thermo-Hygrometer\",\"model_id\":\"H5100/01/02/04/74/77\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":21.9,\"tempf\":71.42,\"hum\":40.6,\"batt\":100}",
-    "{\"brand\":\"Inkbird\",\"model\":\"T(H) Sensor\",\"model_id\":\"IBS-TH1/TH2/P01B/ITH-12S\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":26.62,\"tempf\":79.916,\"hum\":82.17,\"batt\":89}",
-    "{\"brand\":\"Inkbird\",\"model\":\"T(H) Sensor\",\"model_id\":\"IBS-TH1/TH2/P01B/ITH-12S\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":-11.62,\"tempf\":11.084,\"batt\":89}",
-    "{\"brand\":\"Inkbird\",\"model\":\"T(H) Sensor\",\"model_id\":\"IBS-TH1/TH2/P01B/ITH-12S\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":2.27,\"tempf\":36.086,\"hum\":19.79,\"batt\":100}",
-    "{\"brand\":\"Inkbird\",\"model\":\"T(H) Sensor\",\"model_id\":\"IBS-TH1/TH2/P01B/ITH-12S\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":26.92,\"tempf\":80.456,\"batt\":96}",
-    "{\"brand\":\"iNode\",\"model\":\"Energy Meter\",\"model_id\":\"INEM\",\"type\":\"ENRG\",\"cidc\":false,\"avg\":2.376,\"avgu\":\"kW\",\"sum\":21.2928,\"sumu\":\"kWh\",\"batt\":70}",
+    "{\"brand\":\"Inkbird\",\"model\":\"T(H) Sensor\",\"model_id\":\"IBS-TH1/TH2/P01B/ITH-12S\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":26.62,\"tempf\":79.916,\"extprobe\":false,\"hum\":82.17,\"batt\":89}",
+    "{\"brand\":\"Inkbird\",\"model\":\"T(H) Sensor\",\"model_id\":\"IBS-TH1/TH2/P01B/ITH-12S\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":-11.62,\"tempf\":11.084,\"extprobe\":false,\"batt\":89}",
+    "{\"brand\":\"Inkbird\",\"model\":\"T(H) Sensor\",\"model_id\":\"IBS-TH1/TH2/P01B/ITH-12S\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":2.27,\"tempf\":36.086,\"extprobe\":false,\"hum\":19.79,\"batt\":100}",
+    "{\"brand\":\"Inkbird\",\"model\":\"T(H) Sensor\",\"model_id\":\"IBS-TH1/TH2/P01B/ITH-12S\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":26.92,\"tempf\":80.456,\"extprobe\":false,\"batt\":96}",
+    "{\"brand\":\"iNode\",\"model\":\"Energy Meter\",\"model_id\":\"INEM\",\"type\":\"ENRG\",\"cidc\":false,\"avg\":2.376,\"avgu\":\"kW\",\"sum\":21.2928,\"sumu\":\"kWh\",\"batt\":70,\"lowbatt\":false}",
     "{\"brand\":\"iNode\",\"model\":\"Energy Meter\",\"model_id\":\"INEM\",\"type\":\"ENRG\",\"cidc\":false,\"avg\":2.376,\"avgu\":\"kW\",\"sum\":21.2928,\"sumu\":\"kWh\",\"batt\":10,\"lowbatt\":true}",
-    "{\"brand\":\"iNode\",\"model\":\"Energy Meter\",\"model_id\":\"INEM\",\"type\":\"ENRG\",\"cidc\":false,\"avg\":2.376,\"avgu\":\"kW\",\"sum\":21.2928,\"sumu\":\"kWh\",\"batt\":100}",
-    "{\"brand\":\"iNode\",\"model\":\"Energy Meter\",\"model_id\":\"INEM\",\"type\":\"ENRG\",\"cidc\":false,\"avg\":2.376,\"avgu\":\"kW\",\"sum\":21.2928,\"sumu\":\"kWh\",\"batt\":100}",
-    "{\"brand\":\"iNode\",\"model\":\"Energy Meter\",\"model_id\":\"INEM\",\"type\":\"ENRG\",\"cidc\":false,\"avg\":5.304,\"avgu\":\"kW\",\"sum\":18.8804,\"sumu\":\"kWh\",\"batt\":50}",
-    "{\"brand\":\"iNode\",\"model\":\"Energy Meter\",\"model_id\":\"INEM\",\"type\":\"ENRG\",\"cidc\":false,\"avg\":0.900545785,\"avgu\":\"m³\",\"sum\":8.070345664,\"sumu\":\"m³\",\"batt\":60}",
+    "{\"brand\":\"iNode\",\"model\":\"Energy Meter\",\"model_id\":\"INEM\",\"type\":\"ENRG\",\"cidc\":false,\"avg\":2.376,\"avgu\":\"kW\",\"sum\":21.2928,\"sumu\":\"kWh\",\"batt\":100,\"lowbatt\":false}",
+    "{\"brand\":\"iNode\",\"model\":\"Energy Meter\",\"model_id\":\"INEM\",\"type\":\"ENRG\",\"cidc\":false,\"avg\":2.376,\"avgu\":\"kW\",\"sum\":21.2928,\"sumu\":\"kWh\",\"batt\":100,\"lowbatt\":false}",
+    "{\"brand\":\"iNode\",\"model\":\"Energy Meter\",\"model_id\":\"INEM\",\"type\":\"ENRG\",\"cidc\":false,\"avg\":5.304,\"avgu\":\"kW\",\"sum\":18.8804,\"sumu\":\"kWh\",\"batt\":50,\"lowbatt\":false}",
+    "{\"brand\":\"iNode\",\"model\":\"Energy Meter\",\"model_id\":\"INEM\",\"type\":\"ENRG\",\"cidc\":false,\"avg\":0.900545785,\"avgu\":\"m³\",\"sum\":8.070345664,\"sumu\":\"m³\",\"batt\":60,\"lowbatt\":false}",
     "{\"brand\":\"iNode\",\"model\":\"Energy Meter\",\"model_id\":\"INEM\",\"type\":\"ENRG\",\"cidc\":false,\"avg\":2.010309278,\"avgu\":\"m³\",\"sum\":7.156003639,\"sumu\":\"m³\",\"batt\":20,\"lowbatt\":true}",
     "{\"brand\":\"Ruuvi\",\"model\":\"RuuviTag\",\"model_id\":\"RuuviTag_RAWv1\",\"type\":\"ACEL\",\"track\":true,\"hum\":20.5,\"tempc\":26.3,\"tempf\":79.34,\"pres\":1027.66,\"accx\":-0.980665,\"accy\":-1.69262779,\"accz\":0.70019481,\"volt\":2.899}",
     "{\"brand\":\"Ruuvi\",\"model\":\"RuuviTag\",\"model_id\":\"RuuviTag_RAWv1\",\"type\":\"ACEL\",\"track\":true,\"hum\":127.5,\"tempc\":127.99,\"tempf\":262.382,\"pres\":1155.35,\"accx\":32.13345006,\"accy\":32.13345006,\"accz\":32.13345006,\"volt\":65.535}",
@@ -82,7 +82,7 @@ const char* expected_mfg[] = {
     "{\"brand\":\"Sensirion\",\"model\":\"MyCO₂/CO₂ Gadget\",\"model_id\":\"SCD4X\",\"type\":\"AIR\",\"tempc\":25.63286793,\"tempf\":78.13916228,\"hum\":36.16083009,\"co2\":1035}",
     "{\"brand\":\"Sensirion\",\"model\":\"MyCO₂/CO₂ Gadget\",\"model_id\":\"SCD4X\",\"type\":\"AIR\",\"tempc\":28.14831769,\"tempf\":82.66697185,\"hum\":38.09872587,\"co2\":1434}",
     "{\"brand\":\"Govee\",\"model\":\"Smart Thermo-Hygrometer\",\"model_id\":\"H5100/01/02/04/74/77\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":22,\"tempf\":71.6,\"hum\":69.1,\"batt\":100}",
-    "{\"brand\":\"Govee\",\"model\":\"Smart Thermo-Hygrometer\",\"model_id\":\"H5100/01/02/04/74/77\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":-7.2,\"tempf\":19.04,\"hum\":90.3,\"batt\":100}",
+    "{\"brand\":\"Govee\",\"model\":\"Smart Thermo-Hygrometer\",\"model_id\":\"H5100/01/02/04/74/77\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":-7.2,\"tempf\":19.04,\"hum\":29.5,\"batt\":100}",
     "{\"brand\":\"Govee\",\"model\":\"Thermo-Hygrometer\",\"model_id\":\"H5074\",\"type\":\"THB\",\"acts\":true,\"cidc\":false,\"tempc\":22.44,\"tempf\":72.392,\"hum\":74.59,\"batt\":100}",
     "{\"brand\":\"Govee\",\"model\":\"Thermo-Hygrometer\",\"model_id\":\"H5074\",\"type\":\"THB\",\"acts\":true,\"cidc\":false,\"tempc\":-13.76,\"tempf\":7.232,\"hum\":60.92,\"batt\":100}",
     "{\"brand\":\"Govee\",\"model\":\"Thermo-Hygrometer\",\"model_id\":\"H5074\",\"type\":\"THB\",\"acts\":true,\"cidc\":false,\"tempc\":25.87,\"tempf\":78.566,\"hum\":65.55,\"batt\":100}",
@@ -122,15 +122,15 @@ const char* expected_mfg[] = {
     "{\"brand\":\"Govee\",\"model\":\"Smart Thermo-Hygrometer\",\"model_id\":\"H5100/01/02/04/74/77\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":26,\"tempf\":78.8,\"hum\":51,\"batt\":100}",
     "{\"brand\":\"Govee\",\"model\":\"Thermo-Hygrometer\",\"model_id\":\"H5179\",\"type\":\"THB\",\"cidc\":false,\"acts\":true,\"tempc\":20.3,\"tempf\":68.54,\"hum\":57.2,\"batt\":65}",
     "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"idle\",\"mode\":\"off\",\"pressure\":54,\"time\":0}",
-    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"running\",\"mode\":\"daily clean\",\"sector\":\"sector 3\",\"pressure\":50,\"time\":63}",
-    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"initialising\",\"mode\":\"sensitive\",\"sector\":\"sector 1\",\"pressure\":58,\"time\":0}",
-    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"charging\",\"mode\":\"massage\",\"sector\":\"sector 3\",\"pressure\":50,\"time\":74}",
-    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"sleeping\",\"mode\":\"deep clean\",\"sector\":\"sector 3\",\"pressure\":50,\"time\":74}",
-    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"running\",\"mode\":\"tongue cleaning\",\"sector\":\"sector 3\",\"pressure\":50,\"time\":74}",
-    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"running\",\"mode\":\"turbo\",\"sector\":\"sector 3\",\"pressure\":50,\"time\":74}",
-    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"running\",\"sector\":\"sector 3\",\"pressure\":50,\"time\":74}",
-    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"idle\",\"mode\":\"daily clean\",\"sector\":\"sector 1\",\"pressure\":32,\"time\":0}",
-    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"sleeping\",\"mode\":\"turbo\",\"sector\":\"sector 8\",\"pressure\":32,\"time\":135}",
+    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"running\",\"mode\":\"daily clean\",\"sector\":\"sector 3\",\"pressure\":50,\"duration\":63}",
+    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"initialising\",\"mode\":\"sensitive\",\"sector\":\"sector 1\",\"pressure\":58,\"duration\":0}",
+    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"charging\",\"mode\":\"massage\",\"sector\":\"sector 3\",\"pressure\":50,\"duration\":74}",
+    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"sleeping\",\"mode\":\"deep clean\",\"sector\":\"sector 3\",\"pressure\":50,\"duration\":74}",
+    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"running\",\"mode\":\"tongue cleaning\",\"sector\":\"sector 3\",\"pressure\":50,\"duration\":74}",
+    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"running\",\"mode\":\"turbo\",\"sector\":\"sector 3\",\"pressure\":50,\"duration\":74}",
+    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"running\",\"sector\":\"sector 3\",\"pressure\":50,\"duration\":74}",
+    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"idle\",\"mode\":\"daily clean\",\"sector\":\"sector 1\",\"pressure\":32,\"duration\":0}",
+    "{\"brand\":\"Oral-B\",\"model\":\"BT Toothbrush\",\"model_id\":\"ORALB_BT\",\"type\":\"BODY\",\"state\":\"sleeping\",\"mode\":\"turbo\",\"sector\":\"sector 8\",\"pressure\":32,\"duration\":135}",
     "{\"brand\":\"GENERIC\",\"model\":\"BM6 Battery Monitor\",\"model_id\":\"BM6\",\"type\":\"BATT\",\"track\":true,\"batt\":77,\"device\":\"BM6 Tracker\"}",
     "{\"brand\":\"GENERIC\",\"model\":\"BM6 Battery Monitor\",\"model_id\":\"BM6\",\"type\":\"BATT\",\"track\":true,\"batt\":78,\"device\":\"BM6 Tracker\"}",
 };
@@ -145,6 +145,10 @@ const char* expected_name_uuid_mfgsvcdata[] = {
     "{\"brand\":\"SwitchBot\",\"model\":\"Outdoor Meter\",\"model_id\":\"W340001X\",\"type\":\"THB\",\"acts\":true,\"tempc\":25.5,\"tempf\":77.9,\"hum\":50,\"batt\":100,\"mac\":\"AA:BB:CC:DD:EE:FF\"}",
     "{\"brand\":\"SwitchBot\",\"model\":\"Outdoor Meter\",\"model_id\":\"W340001X\",\"type\":\"THB\",\"acts\":true,\"tempc\":26.3,\"tempf\":79.34,\"hum\":80,\"batt\":100,\"mac\":\"AA:BB:CC:DD:EE:FF\"}",
     "{\"brand\":\"SwitchBot\",\"model\":\"Outdoor Meter\",\"model_id\":\"W340001X\",\"type\":\"THB\",\"acts\":true,\"tempc\":-15.9,\"tempf\":3.38,\"hum\":42,\"batt\":65,\"mac\":\"AA:BB:CC:DD:EE:FF\"}",
+    "{\"brand\":\"Sensor Easy\",\"model\":\"SE TEMP\",\"model_id\":\"SE_TEMP\",\"type\":\"THB\",\"tempc\":21.79,\"tempf\":71.222,\"volt\":3.09}",
+    "{\"brand\":\"Sensor Easy\",\"model\":\"SE RHT\",\"model_id\":\"SE_RHT\",\"type\":\"THB\",\"hum\":47,\"volt\":3.097}",
+    "{\"brand\":\"Sensor Easy\",\"model\":\"SE TEMP PROBE\",\"model_id\":\"SE_TPROBE\",\"type\":\"THB\",\"tempc\":20.6,\"tempf\":69.08,\"volt\":3.044}",
+    "{\"brand\":\"Sensor Easy\",\"model\":\"SE MAG\",\"model_id\":\"SE_MAG\",\"type\":\"CTMO\",\"cont\":true,\"open\":false,\"volt\":3.079}",
 };
 
 const char* expected_name_mac_uuid_mfgsvcdata[] = {
@@ -188,6 +192,16 @@ const char* expected_uuid_name_svcdata[] = {
     "{\"brand\":\"Xiaomi\",\"model\":\"TH Sensor\",\"model_id\":\"LYWSD03MMC/MJWSD05MMC_PVVX_ENCR\",\"type\":\"THB\",\"encr\":1,\"cipher\":\"ef56583dd420\",\"ctr\":\"23\",\"mic\":\"50fe8e4d\"}",
     "{\"brand\":\"Xiaomi\",\"model\":\"TH Sensor\",\"model_id\":\"LYWSD03MMC/MJWSD05MMC_PVVX_DECR\",\"type\":\"THB\",\"tempc\":24.60,\"tempf\":76.28,\"hum\":43.54,\"batt\":100}",
     "{\"brand\":\"April Brother\",\"model\":\"N07\",\"model_id\":\"ABN07\",\"type\":\"THB\",\"acts\":true,\"track\":true,\"batt\":100,\"tempc\":24.51,\"tempf\":76.118,\"hum\":47.42,\"packet\":16}",
+    "{\"brand\":\"nut\",\"model\":\"Smart Tracker\",\"model_id\":\"NUTALE\",\"type\":\"TRACK\",\"cidc\":false,\"acts\":true,\"cont\":true,\"track\":true,\"device\":\"nutale Tracker\"}",
+    "{\"brand\":\"Sensor Easy\",\"model\":\"SE TEMP\",\"model_id\":\"SE_TEMP\",\"type\":\"THB\",\"tempc\":2.75,\"tempf\":36.95}",
+    "{\"brand\":\"Sensor Easy\",\"model\":\"SE TEMP\",\"model_id\":\"SE_TEMP\",\"type\":\"THB\",\"tempc\":-9.18,\"tempf\":15.476}",
+    "{\"brand\":\"Sensor Easy\",\"model\":\"SE RHT\",\"model_id\":\"SE_RHT\",\"type\":\"THB\",\"hum\":70}",
+    "{\"brand\":\"Sensor Easy\",\"model\":\"SE RHT\",\"model_id\":\"SE_RHT\",\"type\":\"THB\",\"tempc\":-19.96,\"tempf\":-3.928}",
+    "{\"brand\":\"Sensor Easy\",\"model\":\"SE TEMP\",\"model_id\":\"SE_TEMP\",\"type\":\"THB\",\"tempc\":21.6,\"tempf\":70.88}",
+    "{\"brand\":\"Sensor Easy\",\"model\":\"SE RHT\",\"model_id\":\"SE_RHT\",\"type\":\"THB\",\"tempc\":5.22,\"tempf\":41.396}",
+    "{\"brand\":\"Sensor Easy\",\"model\":\"SE TEMP PROBE\",\"model_id\":\"SE_TPROBE\",\"type\":\"THB\",\"tempc\":20.7,\"tempf\":69.26}",
+    "{\"brand\":\"Sensor Easy\",\"model\":\"SE MAG\",\"model_id\":\"SE_MAG\",\"type\":\"CTMO\",\"open\":true,\"cont\":true}",
+    "{\"brand\":\"Sensor Easy\",\"model\":\"SE MAG\",\"model_id\":\"SE_MAG\",\"type\":\"CTMO\",\"open\":false,\"cont\":true}",
 };
 
 const char* expected_uuid[] = {
@@ -239,11 +253,11 @@ const char* expected_uuid[] = {
     "{\"brand\":\"Xiaomi/VegTrug\",\"model\":\"MiFlora\",\"model_id\":\"HHCCJCY01HHCC\",\"type\":\"PLANT\",\"tempc\":32,\"tempf\":89.6,\"mac\":\"C4:7C:8D:65:B6:63\"}",
     "{\"brand\":\"Xiaomi/VegTrug\",\"model\":\"MiFlora\",\"model_id\":\"HHCCJCY01HHCC\",\"type\":\"PLANT\",\"fer\":0,\"mac\":\"AA:BB:CC:DD:EE:FF\"}",
     "{\"brand\":\"Xiaomi/VegTrug\",\"model\":\"MiFlora\",\"model_id\":\"HHCCJCY01HHCC\",\"type\":\"PLANT\",\"tempc\":32,\"tempf\":89.6,\"mac\":\"C4:7C:8D:65:B6:63\"}",
-    "{\"brand\":\"SwitchBot\",\"model\":\"Motion Sensor\",\"model_id\":\"W110150X\",\"type\":\"CTMO\",\"acts\":true,\"cont\":true,\"motion\":false,\"led\":false,\"sensingdistance\":\"middle\",\"lightlevel\":\"dark\",\"batt\":55}",
-    "{\"brand\":\"SwitchBot\",\"model\":\"Motion Sensor\",\"model_id\":\"W110150X\",\"type\":\"CTMO\",\"acts\":true,\"cont\":true,\"motion\":false,\"led\":false,\"sensingdistance\":\"middle\",\"lightlevel\":\"dark\",\"batt\":55}",
+    "{\"brand\":\"SwitchBot\",\"model\":\"Motion Sensor\",\"model_id\":\"W110150X\",\"type\":\"CTMO\",\"acts\":true,\"cont\":true,\"motion\":false,\"led\":false,\"scopetested\":true,\"sensingdistance\":\"middle\",\"lightlevel\":\"dark\",\"batt\":55}",
+    "{\"brand\":\"SwitchBot\",\"model\":\"Motion Sensor\",\"model_id\":\"W110150X\",\"type\":\"CTMO\",\"acts\":true,\"cont\":true,\"motion\":false,\"led\":false,\"scopetested\":true,\"sensingdistance\":\"middle\",\"lightlevel\":\"dark\",\"batt\":55}",
     "{\"brand\":\"SwitchBot\",\"model\":\"Motion Sensor\",\"model_id\":\"W110150X\",\"type\":\"CTMO\",\"acts\":true,\"cont\":true,\"motion\":true,\"led\":true,\"scopetested\":false,\"sensingdistance\":\"long\",\"lightlevel\":\"bright\",\"batt\":85}",
-    "{\"brand\":\"SwitchBot\",\"model\":\"Contact Sensor\",\"model_id\":\"W120150X\",\"type\":\"CTMO\",\"acts\":true,\"cont\":true,\"contact\":\"closed\",\"motion\":true,\"lightlevel\":\"bright\",\"in_ct\":0,\"out_ct\":0,\"push_ct\":0,\"batt\":92}",
-    "{\"brand\":\"SwitchBot\",\"model\":\"Contact Sensor\",\"model_id\":\"W120150X\",\"type\":\"CTMO\",\"acts\":true,\"cont\":true,\"contact\":\"open\",\"motion\":false,\"lightlevel\":\"dark\",\"in_ct\":0,\"out_ct\":0,\"push_ct\":0,\"batt\":87}",
+    "{\"brand\":\"SwitchBot\",\"model\":\"Contact Sensor\",\"model_id\":\"W120150X\",\"type\":\"CTMO\",\"acts\":true,\"cont\":true,\"contact\":\"closed\",\"motion\":true,\"lightlevel\":\"bright\",\"in_ct\":0,\"out_ct\":0,\"push_ct\":0,\"scopetested\":true,\"batt\":92}",
+    "{\"brand\":\"SwitchBot\",\"model\":\"Contact Sensor\",\"model_id\":\"W120150X\",\"type\":\"CTMO\",\"acts\":true,\"cont\":true,\"contact\":\"open\",\"motion\":false,\"lightlevel\":\"dark\",\"in_ct\":0,\"out_ct\":0,\"push_ct\":0,\"scopetested\":true,\"batt\":87}",
     "{\"brand\":\"SwitchBot\",\"model\":\"Contact Sensor\",\"model_id\":\"W120150X\",\"type\":\"CTMO\",\"acts\":true,\"cont\":true,\"contact\":\"timeout not closed\",\"motion\":true,\"lightlevel\":\"bright\",\"in_ct\":0,\"out_ct\":0,\"push_ct\":0,\"scopetested\":false,\"batt\":65}",
     "{\"brand\":\"SwitchBot\",\"model\":\"Contact Sensor\",\"model_id\":\"W120150X\",\"type\":\"CTMO\",\"acts\":true,\"cont\":true,\"contact\":\"timeout not closed\",\"motion\":true,\"lightlevel\":\"bright\",\"in_ct\":0,\"out_ct\":0,\"push_ct\":0,\"scopetested\":false,\"batt\":65}",
     "{\"brand\":\"Qingping\",\"model\":\"Air Monitor Lite\",\"model_id\":\"CGDN1\",\"type\":\"AIR\",\"tempc\":29,\"tempf\":84.2,\"hum\":33.2,\"pm25\":113,\"pm10\":114,\"co2\":1005}",
@@ -254,9 +268,9 @@ const char* expected_uuid[] = {
     "{\"brand\":\"ClearGrass/Qingping\",\"model\":\"Alarm Clock\",\"model_id\":\"CGC1/CGD1\",\"type\":\"THB\",\"tempc\":26.6,\"tempf\":79.88,\"hum\":63.9,\"batt\":42,\"mac\":\"58:2D:34:50:FD:AF\"}",
     "{\"brand\":\"ClearGrass/Qingping\",\"model\":\"Alarm Clock\",\"model_id\":\"CGC1/CGD1\",\"type\":\"THB\",\"tempc\":26.9,\"tempf\":80.42,\"hum\":67,\"batt\":42,\"mac\":\"58:2D:34:50:FD:AF\"}",
     "{\"brand\":\"ClearGrass/Qingping\",\"model\":\"Alarm Clock\",\"model_id\":\"CGC1/CGD1\",\"type\":\"THB\",\"tempc\":27,\"tempf\":80.6,\"hum\":65.7,\"batt\":85,\"mac\":\"58:2D:34:50:FD:AF\"}",
-    "{\"brand\":\"ClearGrass\",\"model\":\"Weather Station\",\"model_id\":\"CGP1W\",\"type\":\"THBX\",\"tempc\":26.4,\"tempf\":79.52,\"hum\":64.7,\"pres\":1006.3,\"mac\":\"AA:BB:CC:DD:EE:FF\"}",
-    "{\"brand\":\"ClearGrass\",\"model\":\"Weather Station\",\"model_id\":\"CGP1W\",\"type\":\"THBX\",\"tempc\":27.1,\"tempf\":80.78,\"hum\":64.8,\"pres\":1006.3,\"mac\":\"58:2D:34:40:01:4C\"}",
-    "{\"brand\":\"ClearGrass\",\"model\":\"Weather Station\",\"model_id\":\"CGP1W\",\"type\":\"THBX\",\"tempc\":25.2,\"tempf\":77.36,\"hum\":58.6,\"pres\":1008.6,\"mac\":\"58:2D:34:40:01:4C\"}",
+    "{\"brand\":\"ClearGrass/Qingping\",\"model\":\"Weather Station\",\"model_id\":\"CGP1W\",\"type\":\"THBX\",\"tempc\":26.4,\"tempf\":79.52,\"hum\":64.7,\"pres\":1006.3,\"batt\":92,\"mac\":\"AA:BB:CC:DD:EE:FF\"}",
+    "{\"brand\":\"ClearGrass/Qingping\",\"model\":\"Weather Station\",\"model_id\":\"CGP1W\",\"type\":\"THBX\",\"tempc\":27.1,\"tempf\":80.78,\"hum\":64.8,\"pres\":1006.3,\"batt\":92,\"mac\":\"58:2D:34:40:01:4C\"}",
+    "{\"brand\":\"ClearGrass/Qingping\",\"model\":\"Weather Station\",\"model_id\":\"CGP1W\",\"type\":\"THBX\",\"tempc\":25.2,\"tempf\":77.36,\"hum\":58.6,\"pres\":1008.6,\"batt\":32,\"mac\":\"58:2D:34:40:01:4C\"}",
     "{\"brand\":\"Qingping\",\"model\":\"TH Lite\",\"model_id\":\"CGDK2\",\"type\":\"THB\",\"tempc\":23.2,\"tempf\":73.76,\"hum\":91.1,\"mac\":\"AA:BB:CC:DD:EE:FF\"}",
     "{\"brand\":\"Qingping\",\"model\":\"TH Lite\",\"model_id\":\"CGDK2\",\"type\":\"THB\",\"tempc\":23.3,\"tempf\":73.94,\"hum\":54.1,\"mac\":\"58:2D:34:11:91:79\"}",
     "{\"brand\":\"Qingping\",\"model\":\"TH Lite\",\"model_id\":\"CGDK2\",\"type\":\"THB\",\"tempc\":23.3,\"tempf\":73.94,\"hum\":54.1,\"mac\":\"58:2D:34:11:91:79\"}",
@@ -306,6 +320,8 @@ const char* expected_uuid[] = {
     "{\"brand\":\"KKM\",\"model\":\"Tracking K9\",\"model_id\":\"K9\",\"type\":\"ACEL\",\"track\":true,\"tempc\":-0.45,\"tempf\":31.19,\"hum\":34.3,\"volt\":3.591,\"accx\":-4,\"accy\":-20,\"accz\":1003}",
     "{\"brand\":\"KKM\",\"model\":\"Tracking K9\",\"model_id\":\"K9\",\"type\":\"ACEL\",\"track\":true,\"tempc\":-11.79,\"tempf\":10.778,\"hum\":43.84,\"volt\":3.672,\"accx\":15,\"accy\":-15,\"accz\":1015}",
     "{\"brand\":\"KKM\",\"model\":\"Tracking K9\",\"model_id\":\"K9\",\"type\":\"ACEL\",\"track\":true,\"tempc\":-10.9,\"tempf\":12.38,\"hum\":74.86,\"volt\":3.675,\"accx\":-62,\"accy\":0,\"accz\":1046}",
+    "{\"brand\":\"SwitchBot\",\"model\":\"Bot\",\"model_id\":\"X1\",\"type\":\"ACTR\",\"acts\":true,\"mode\":\"onestate\",\"state\":\"on\",\"batt\":71}",
+    "{\"brand\":\"ClearGrass/Qingping\",\"model\":\"Barometer Pro\",\"model_id\":\"CGP23W\",\"type\":\"THBX\",\"tempc\":23.2,\"tempf\":73.76,\"hum\":47.6,\"pres\":1007.4,\"batt\":94,\"mac\":\"AA:BB:CC:DD:EE:FF\"}",
 };
 
 const char* expected_mac_mfg[] = {
@@ -620,6 +636,10 @@ const char* test_name_uuid_mfgsvcdata[][5] = {
     {"SwitchBot Outdoor Meter", "Outdoor Meter", "0xfd3d", "6909aabbccddeeff8b0305993200", "770064"},
     {"SwitchBot Outdoor Meter", "Outdoor Meter", "0xfd3d", "6909aabbccddeeff940b039a5000", "770064"},
     {"SwitchBot Outdoor Meter", "Outdoor Meter", "0xfd3d", "6909aabbccddeeffe30f090f2a00", "770041"},
+    {"SE TEMP volt","P T EN 888444","0x2a6e","5707f2120c","8308"},
+    {"SE RHT volt","P RHT 88888B","0x2a6f","5707f2190c","2f"},
+    {"SE TEMP PROBE","P TPROBE 000000","0x2a6e","5707f2e40b","0c08"},
+    {"SE MAG","P MAG CCCCCC","0x2a06","5707f2070c","3b00"},
 };
 
 TheengsDecoder::BLE_ID_NUM test_name_uuid_mfgsvcdata_id_num[]{
@@ -632,6 +652,10 @@ TheengsDecoder::BLE_ID_NUM test_name_uuid_mfgsvcdata_id_num[]{
     TheengsDecoder::BLE_ID_NUM::SBOT,
     TheengsDecoder::BLE_ID_NUM::SBOT,
     TheengsDecoder::BLE_ID_NUM::SBOT,
+    TheengsDecoder::BLE_ID_NUM::SE_TEMP,
+    TheengsDecoder::BLE_ID_NUM::SE_RHT,
+    TheengsDecoder::BLE_ID_NUM::SE_TPROBE,
+    TheengsDecoder::BLE_ID_NUM::SE_MAG,
 };
 
 // uuid test input [test name] [mac] [device name] [uuid] [manufacturer data] [service data]
@@ -688,6 +712,16 @@ const char* test_uuid_name_svcdata[][4] = {
     {"LYWSD03MMC_PVVX_ENCR", "0x181a", "ATC_9C58AB", "23ef56583dd42050fe8e4d"},
     {"LYWSD03MMC_PVVX_DECR", "0x181a", "ATC_89DF88", "9c0902116404"},
     {"ABN07", "0xfcd2", "asensor_7F7F", "4000100164029309038612"},
+    {"Nutale", "0x0900", "nutale", "aabbccddeeff160100010100"},
+    {"SE TEMP", "0x2a6e", "C T 999999", "1301"}, 
+    {"SE TEMP negative","0x2a6e","C T 88888E","6afc"}, 
+    {"SE RHT hum","0x2a6f","P RHT 99999A","46"},
+    {"SE RHT temp neg","0x2a6e","P RHT 33399T","34f8"},
+    {"SE TEMP temp positive","0x2a6e","P T EN 888444","7008"},
+    {"SE RHT temp pos","0x2a6e","P RHT 99999Z","0a02"},
+    {"SE TEMP PROBE temp","0x2a6e","P TPROBE 111999","1608"},
+    {"SE MAG Open","0x2a06","P MAG CCCCCC","2400"},
+    {"SE MAG Closed","0x2a06","P MAG CCCCCC","2900"},
 };
 
 TheengsDecoder::BLE_ID_NUM test_uuid_name_svcdata_id_num[]{
@@ -720,6 +754,16 @@ TheengsDecoder::BLE_ID_NUM test_uuid_name_svcdata_id_num[]{
     TheengsDecoder::BLE_ID_NUM::LYWSD03MMC_PVVX_ENCR,
     TheengsDecoder::BLE_ID_NUM::LYWSD03MMC_PVVX_DECR,
     TheengsDecoder::BLE_ID_NUM::ABN07,
+    TheengsDecoder::BLE_ID_NUM::NUTALE,
+    TheengsDecoder::BLE_ID_NUM::SE_TEMP,
+    TheengsDecoder::BLE_ID_NUM::SE_TEMP,
+    TheengsDecoder::BLE_ID_NUM::SE_RHT,
+    TheengsDecoder::BLE_ID_NUM::SE_RHT,
+    TheengsDecoder::BLE_ID_NUM::SE_TEMP,
+    TheengsDecoder::BLE_ID_NUM::SE_RHT,
+    TheengsDecoder::BLE_ID_NUM::SE_TPROBE,
+    TheengsDecoder::BLE_ID_NUM::SE_MAG,
+    TheengsDecoder::BLE_ID_NUM::SE_MAG,
 };
 
 // uuid test input [test name] [uuid] [data source] [data]
@@ -839,7 +883,8 @@ const char* test_uuid[][4] = {
     {"KKM K9", "0xfeaa", "servicedata", "21010f0e07ff8e224ffffcffec03eb"},
     {"KKM K9", "0xfeaa", "servicedata", "21010f0e58f4362bd8000ffff103f7"},
     {"KKM K9", "0xfeaa", "servicedata", "21010f0e5bf51b4addffc200000416"},
-
+    {"Switchbot_S1", "0xfd3d", "servicedata", "48004700"},
+    {"ClearGrass Barometer Pro", "0xfdcd", "servicedata", "8818ffeeddccbbaa0104e800dc0102015e07025a27"},
 };
 
 TheengsDecoder::BLE_ID_NUM test_uuid_id_num[]{
@@ -958,6 +1003,8 @@ TheengsDecoder::BLE_ID_NUM test_uuid_id_num[]{
     TheengsDecoder::BLE_ID_NUM::KKM_K9,
     TheengsDecoder::BLE_ID_NUM::KKM_K9,
     TheengsDecoder::BLE_ID_NUM::KKM_K9,
+    TheengsDecoder::BLE_ID_NUM::SBS1,
+    TheengsDecoder::BLE_ID_NUM::CGP23W,
 };
 
 // MAC manufacturer data test input [test name] [mac] [data]

@@ -25,6 +25,7 @@
 #include "devices/CGDN1_json.h"
 #include "devices/CGH1_json.h"
 #include "devices/CGP1W_json.h"
+#include "devices/CGP23W_json.h"
 #include "devices/CGPR1_json.h"
 #include "devices/GAEN_json.h"
 #include "devices/H5055_json.h"
@@ -95,6 +96,10 @@
 #include "devices/iBeacon_json.h"
 #include "devices/APPLE_json.h"
 #include "devices/ServiceData_json.h"
+#include "devices/SE_RHT_json.h"
+#include "devices/SE_TEMP_json.h"
+#include "devices/SE_TPROBE_json.h"
+#include "devices/SE_MAG_json.h"
 #include "devices/SBBT_002C_json.h"
 #include "devices/SBBT_002C_ENCR_json.h"
 #include "devices/SBDW_002C_json.h"
@@ -108,6 +113,7 @@ const char* _devices[][2] = {
     {_LYWSD02_json, _LYWSD02_json_props},
     {_LYWSDCGQ_json, _LYWSDCGQ_json_props},
     {_CGP1W_json, _CGP1W_json_props},
+    {_CGP23W_json, _CGP23W_json_props},
     {_CGG1_json_STOCK, _CGG1_json_props},
     {_CGG1_json_ATC1441, _CGG1_json_props},
     {_CGG1_json_PVVX, _CGG1_json_props},
@@ -184,6 +190,7 @@ const char* _devices[][2] = {
     {_T201_json, _T201_json_props},
     {_T301_json, _T301_json_props},
     {_tracker_json_nut, _tracker_json_props},
+    {_tracker_json_nutale, _tracker_json_props},
     {_tracker_json_itag, _tracker_json_props},
     {_tracker_json_tagit, _tracker_json_props},
     {_tracker_json_tile, _tracker_json_props},
@@ -193,6 +200,10 @@ const char* _devices[][2] = {
     {_APPLE_json, _APPLE_json_props},
     {_APPLE_json_at, _APPLE_json_props},
     {_ServiceData_json, _ServiceData_json_props},
+    {_SE_RHT_json, _SE_RHT_json_props},
+    {_SE_TEMP_json, _SE_TEMP_json_props},
+    {_SE_TPROBE_json, _SE_TPROBE_json_props},
+    {_SE_MAG_json, _SE_MAG_json_props},
     {_SBBT_002C_json, _SBBT_002C_json_props},
     {_SBBT_002C_ENCR_json, _SBBT_002C_ENCR_json_props},
     {_SBDW_002C_json, _SBDW_002C_json_props},
